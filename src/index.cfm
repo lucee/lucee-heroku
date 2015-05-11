@@ -3,4 +3,9 @@ Hi there!  The date is <cfdump var="#now()#">
 
 <cfdump var="#cgi#">
 
-Yo yo
+<cfscript>
+
+	env = CreateObject("java", "java.lang.System").getenv();
+</cfscript>
+
+<cfdump var="#env#">
