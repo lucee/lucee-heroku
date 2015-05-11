@@ -1,0 +1,40 @@
+User-agent: *
+Disallow: /admin
+User-agent: psbot
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: lwp-trivial/1.34
+Disallow: /
+
+User-agent: lwp-trivial
+Disallow: /
+
+User-agent: lwp-request
+Disallow: /
+
+User-agent: MagpieRSS
+Disallow: /
+
+User-agent: Custo
+Disallow: /
+
+User-agent: ichiro
+Disallow: /
+
+User-agent: Sensis Web Crawler
+Disallow: /
+
+User-agent: IRLbot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: CFNetwork
+Disallow: /
+
+User-agent: TencentTraveler
+Disallow: /
