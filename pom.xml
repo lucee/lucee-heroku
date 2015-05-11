@@ -19,7 +19,7 @@
 
     <artifactId>lucee.pomparent.heroku.runwar</artifactId>
      -->
-    <artifactId>railo.pomparent.heroku.jetty</artifactId>
+    <artifactId>lucee.pomparent.heroku.jetty</artifactId>
     <version>1.0.0</version>
   </parent>
 
