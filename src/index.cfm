@@ -1,6 +1,9 @@
-Hi there live on Heroku! Hey Micha!!  The date is <cfdump var="#now()#">
-<cfdump var="#server#" />
+Hi there live on Heroku!
+
+
 
 <cfdump var="#cgi#">
 
+
+<h1>Environment Variables</h1>
 <cfdump var="#CreateObject("java", "java.lang.System").getenv()#">
