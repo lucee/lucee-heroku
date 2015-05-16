@@ -1,0 +1,7 @@
+{
+  "name": "Lucee 4.5 Sample",
+  "description": "A barebones Lucee app using Lucee 4.5",
+  "repository": "https://github.com/heroku/node-js-sample",
+  "logo": "http://lucee.org/assets/img/lucee-logo.png",
+  "keywords": ["lucee", "cfml"]
+}
