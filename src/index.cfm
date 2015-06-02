@@ -3,8 +3,7 @@
 </cfoutput>
 <pre>
 	- Note the new system key under server scope which now has environment and properties for easy access
-	- 5.0.0
-
+</pre>
 
 <h1>Server Variables</h1>
 <cfdump var="#server#">
