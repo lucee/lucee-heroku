@@ -19,7 +19,7 @@
     <groupId>org.lucee</groupId>
 
     <artifactId>lucee.pomparent.heroku.runwar</artifactId>
-    <version>1.0.0</version>
+    <version>1.5.0</version>
   </parent>
 
   <repositories>
