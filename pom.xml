@@ -12,7 +12,7 @@
     <runwar.version>3.1.0</runwar.version>
   <!-- Lucee 4.5
     <lucee.version>4.5.1.015</lucee.version>-->
-    <lucee.version>5.0.0.47</lucee.version>
+    <lucee.version>5.0.0.47-SNAPSHOT</lucee.version>
   </properties>
 
   <parent>
