@@ -4,6 +4,6 @@ Lucee #server.lucee.version# running on Heroku
 </cfoutput>
 
 
-<h2>Environment variables available</h2>
+<h2>Environment variables available..</h2>
 
 <cfdump var="#server.system.environment#">
