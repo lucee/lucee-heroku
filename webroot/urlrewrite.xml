@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://urlrewritefilter.googlecode.com/svn/trunk/src/java/org/tuckey/web/filters/urlrewrite/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+    <rule enabled="true">
+        <note>If the request is for Lucee admin, don't process any further rules</note>
+        <from>^/lucee/(.*)</from>
+        <to>/index.cfm</to>
+        <set type="status">404</set>
+    </rule>
+
+    <rule enabled="false">
+        <note>search engine friendly urls for cf frameworks</note>
+        <condition type="request-filename" operator="notfile" />
+        <from>^(.*)$</from>
+        <to>/index.cfm$1</to>
+    </rule>
+
+</urlrewrite>

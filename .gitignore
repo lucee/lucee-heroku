@@ -1,2 +1,5 @@
 target
 Procfile
+webroot/WEB-INF
+!webroot/WEB-INF/web.xml
+!webroot/WEB-INF/lucee/lucee-web.xml.cfm
