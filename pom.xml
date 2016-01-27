@@ -9,7 +9,7 @@
   <packaging>pom</packaging>
 
   <properties>
-        <lucee.version>5.0.0.72-SNAPSHOT</lucee.version>
+        <lucee.version>5.0.0.98-SNAPSHOT</lucee.version>
         <mysqlconnector.version>5.1.36</mysqlconnector.version>
       <tomcatrunner.version>7.0.57.2</tomcatrunner.version>
    </properties>
