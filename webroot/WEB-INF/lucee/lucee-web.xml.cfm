@@ -49,7 +49,7 @@ Path placeholders:
 		tld-directory / fld-directory - directory where additional Function and Tag Library Deskriptor are.
 		temp-directory - directory for temporary files (upload aso.)
 	 -->
-	<file-system deploy-directory="{lucee-web}/cfclasses/" fld-directory="{lucee-web}/library/fld/" temp-directory="{lucee-web}/temp/" tld-directory="{lucee-web}/library/tld/"  allow-realpath="false">
+	<file-system deploy-directory="{lucee-web}/cfclasses/" fld-directory="{lucee-web}/library/fld/" temp-directory="{lucee-web}/temp/" tld-directory="{lucee-web}/library/tld/"  allow-realpath="true">
 	</file-system>
 
 	<!--
